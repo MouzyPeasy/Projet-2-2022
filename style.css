@@ -110,8 +110,8 @@ form {
 
 h3 + ul {
   display: flex;
-  list-style: none;
   flex-wrap: wrap;
+  list-style: none;
 }
 
 .bar_filters li {
@@ -167,6 +167,8 @@ h3 + ul {
   height: 700px;
   background-color: #f2f2f2;
   border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .all_hebergements {
@@ -194,16 +196,17 @@ h3 + ul {
 }
 
 .populaires {
-  width: 30%;
+  width: 27%;
   background-color: #f2f2f2;
   margin-left: 40px;
   border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .card_2 {
   width: 80%;
   height: 160px;
-  margin-top: 10px;
   margin-bottom: 5px;
   margin-left: 50px;
   background-color: white;
@@ -214,7 +217,7 @@ h3 + ul {
 }
 
 .card_2 img {
-  width: 35%;
+  width: 40%;
   height: 160px;
   object-fit: cover;
   border-radius: 15px 0 0 15px;
@@ -237,6 +240,11 @@ h3 + ul {
   margin-top: 7px;
 }
 
+.star_right{
+    margin-left: 10px;
+    margin-top: 80px;
+}
+
 .full {
   color: #0065fc;
 }
@@ -255,7 +263,7 @@ h2 {
 }
 
 .title_pop h2 i {
-  margin-left: 350px;
+  margin-left: 190px;
 }
 
 .afficher {

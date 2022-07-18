@@ -225,24 +225,24 @@ h3 + ul {
 
 .container h3 {
   margin: 0;
-  margin-left: 10px;
+  margin-left: 15px;
   margin-top: 7px;
 }
 
 .container p {
   margin: 0px;
-  margin-left: 10px;
+  margin-left: 15px;
   margin-top: 5px;
 }
 
 .star_left {
-  margin-left: 10px;
+  margin-left: 15px;
   margin-top: 7px;
 }
 
-.star_right{
-    margin-left: 10px;
-    margin-top: 80px;
+.star_right {
+  margin-left: 15px;
+  margin-top: 60px;
 }
 
 .full {
@@ -276,20 +276,32 @@ h2 {
 .card_3 {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 100px;
 }
 
 .solo {
-  width: 24%;
+  width: 20%;
+  height: 520px;
+  background-color: white;
+  border: 0px solid white;
+  border-radius: 20px;
+  box-shadow: 3px 3px 10px #d9d9d9;
 }
 
 .duo {
-  width: 24%;
+  width: 20%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.fort img,
+.fort img {
+  width: 100%;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 20px 20px 0px 0px;
+}
+
 .longchamp img {
   width: 100%;
   height: 90px;
@@ -311,11 +323,30 @@ h2 {
   border-radius: 20px 20px 0px 0px;
 }
 
+.moyen {
+  background-color: white;
+  border: 0px solid white;
+  border-radius: 20px;
+  box-shadow: 3px 3px 10px #d9d9d9;
+}
+
+.mini {
+  background-color: white;
+  border: 0px solid white;
+  border-radius: 20px;
+  box-shadow: 3px 3px 10px #d9d9d9;
+}
+
 .grand img {
   width: 100%;
-  height: 600px;
+  height: 460px;
   object-fit: cover;
   border-radius: 20px 20px 0px 0px;
+}
+
+.petit img {
+  width: 100%;
+  height: 170px;
 }
 
 .card_3 h4 {
@@ -323,15 +354,13 @@ h2 {
   margin: 10px 0 10px 10px;
 }
 
-.petit {
-  height: 300px;
-}
-
 /* Footer */
 
 .bot {
   width: 50%;
-  margin-left: 45px;
+  margin-left: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 footer {
@@ -345,7 +374,7 @@ footer ul {
 }
 
 footer h3 {
-  margin-left: 40px;
+  margin-left: 45px;
 }
 
 footer li {

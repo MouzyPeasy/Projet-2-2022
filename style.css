@@ -111,9 +111,6 @@ h3 + ul {
 }
 
 .bar_filters li {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
   border: 3px solid #f2f2f2;
   border-radius: 200px;
   font-weight: bold;
@@ -122,16 +119,21 @@ h3 + ul {
   padding: 0 20px 0 0;
 }
 
-.bar_filters li:hover {
-  background-color: orange;
-}
-
 .i_filters {
   color: #0065fc;
   background-color: #deebff;
   border-radius: 200px;
+  margin-left: -3px;
   margin-right: 25px;
   padding: 15px;
+}
+
+.bar_filters li:hover {
+  background-color: orange;
+}
+
+.fa-child-reaching {
+  padding-right: 18px ;
 }
 
 /* Info */
@@ -159,7 +161,7 @@ h3 + ul {
 
 .hebergements_main {
   width: 70%;
-  height: 700px;
+  height: 730px;
   background-color: #f2f2f2;
   border-radius: 20px;
   padding-left: 20px;
@@ -176,7 +178,7 @@ h3 + ul {
   width: 27%;
   height: 240px;
   margin-top: 10px;
-  margin-bottom: 5px;
+  margin-bottom: 30px;
   background-color: white;
   border: 4px solid white;
   border-radius: 17px;
@@ -253,17 +255,21 @@ h2 {
   margin-top: 40px;
 }
 
+.title_pop {
+  height: 20px;
+  margin-bottom: 33px;
+}
+
 .title_pop h2 {
   margin-left: 50px;
 }
 
 .title_pop h2 i {
-  margin-left: 145px;
+  margin-left: 180px;
 }
 
 .afficher {
   margin-left: 35px;
-  margin-top: 30px;
 }
 
 /* Activités*/
@@ -275,7 +281,7 @@ h2 {
 }
 
 .solo {
-  width: 20%;
+  width: 22%;
   height: 520px;
   background-color: white;
   border: 0px solid white;
@@ -284,7 +290,7 @@ h2 {
 }
 
 .duo {
-  width: 20%;
+  width: 22%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

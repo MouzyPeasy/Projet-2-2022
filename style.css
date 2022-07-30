@@ -31,8 +31,8 @@ h2 {
 }
 
 main {
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 43px;
+  margin-right: 43px;
 }
 
 header {
@@ -84,43 +84,41 @@ nav a:hover {
 /* Recherche */
 
 form {
-  max-width: 400px;
+  width: 400px;
 }
 
 .bar_search {
-  display: flex;
   width: 100%;
+  display: flex;
   margin-top: 15px;
   margin-bottom: 35px;
   padding: 0;
 }
 
 .icon_location {
-  width: 11%;
-  color: black;
-  background: #f2f2f2;
-  text-align: center;
+  width: 45px;
   display: flex;
   align-items: center;
   justify-content: center;
+  color: black;
+  background: #f2f2f2;
   border-radius: 13px 0 0 13px;
 }
 
 .input-field {
+  width: 45%;
   border: 2px solid #f2f2f2;
   border-right: transparent;
-  width: 45%;
   padding: 10px;
   font-weight: bold;
   outline: none;
 }
 
 .btn_search {
+  width: 30%;
   color: white;
   background-color: #0065fc;
   border: none;
-  cursor: pointer;
-  width: 30%;
   opacity: 1;
   border-radius: 0 10px 10px 0;
 }
@@ -202,13 +200,11 @@ h3 + ul {
 
 .hebergements_mid {
   display: flex;
-  flex-direction: row;
   margin-bottom: 50px;
 }
 
 .hebergements_main {
   width: 70%;
-  height: 730px;
   background-color: #f2f2f2;
   border-radius: 20px;
   padding-left: 20px;
@@ -244,6 +240,10 @@ h3 + ul {
   position: relative;
 }
 
+.card_1:hover {
+  transform: scale(1.05);
+}
+
 .card_1 img {
   width: 100%;
   height: 150px;
@@ -257,8 +257,12 @@ h3 + ul {
   border: 4px solid white;
   border-radius: 17px;
   box-shadow: 3px 3px 10px #d9d9d9;
-  position: relative;
   margin-bottom: 50px;
+  position: relative;
+}
+
+.card_2:hover {
+  transform: scale(1.05);
 }
 
 .a_populaires {
@@ -273,22 +277,22 @@ h3 + ul {
 }
 
 .title_pop {
-  width: 80%;
+  width: 87%;
   display: flex;
   justify-content: space-between;
-  margin-left: 40px;
+  align-items: center;
   margin-top: 45px;
   margin-bottom: 35px;
 }
 
 .hebergements_main h2 {
-  padding-top: 45px;
-  padding-left: 40px;
-  padding-bottom: 35px;
+  margin-top: 45px;
+  margin-left: 40px;
+  margin-bottom: 35px;
 }
 
 .afficher {
-  margin-left: 35px;
+  margin-left: 40px;
 }
 
 .container {
@@ -335,10 +339,6 @@ h3 + ul {
   margin-bottom: 70px;
 }
 
-.a_activite {
-  display: flex;
-}
-
 .solo {
   width: 22%;
   height: 520px;
@@ -346,6 +346,10 @@ h3 + ul {
   border: 0px solid white;
   border-radius: 20px;
   box-shadow: 3px 3px 10px #d9d9d9;
+}
+
+.solo:hover {
+  transform: scale(1.05);
 }
 
 .duo {
@@ -390,11 +394,19 @@ h3 + ul {
   height: 300px;
 }
 
+.pom:hover {
+  transform: scale(1.05);
+}
+
 .frioul {
   border: 0px solid white;
   border-radius: 20px;
   box-shadow: 3px 3px 10px #d9d9d9;
   height: 175px;
+}
+
+.frioul:hover {
+  transform: scale(1.05);
 }
 
 .demi {
@@ -404,13 +416,16 @@ h3 + ul {
   height: 230px;
 }
 
+.demi:hover {
+  transform: scale(1.05);
+}
+
 h4 {
   font-size: 16px;
   margin: 20px 0 20px 20px;
 }
 
 .title_activite {
-  margin-left: 0px;
   margin-bottom: 30px;
 }
 
@@ -574,7 +589,7 @@ footer li {
   }
 
   .bar_search {
-    width: 95%;
+    width: 90%;
     margin-top: 30px;
     margin-left: 20px;
     margin-bottom: 20px;
@@ -585,7 +600,7 @@ footer li {
   }
 
   .icon_search {
-    width: 11%;
+    width: 45px;
     color: white;
     background-color: #0065fc;
     border: none;
@@ -595,12 +610,16 @@ footer li {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: -10px;
   }
 
   .input-field {
-    width: 55%;
+    width: 83%;
   }
 
+  form {
+    width: 100%;
+  }
   /*Filtres*/
 
   .bar_filters {

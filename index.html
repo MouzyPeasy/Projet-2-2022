@@ -16,22 +16,27 @@
     <!--Header/nav-->
     <header>
         <nav>
-            <img src="images/logo/Booki@3x.png" alt="logo">
+            <div class="nav_logo">
+                <img src="images/logo/Booki@3x.png" alt="logo">
+            </div>
             <ul>
-                <li><a href="#hebergements">Hébergements</a></li>
+                <li><a href="#hebergements">Hébergements</a></>
+                </li>
                 <li><a href="#activites">Activités</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <h1>Trouver votre hébergement pour des vacances de rêve</h1>
+        <h1 class="bla" id="bla">Trouver votre hébergement pour des vacances de rêve</h1>
         <p>En plein centre ville ou en pleine nature</p>
         <!--Recherche/form-->
         <form method="post" action="/recherche.php">
             <div class="bar_search">
-                <i class="fa-solid fa-location-dot icon_search"></i>
+                <i class="fa-solid fa-location-dot icon_location" aria-hidden="true"></i>
                 <input class="input-field" type="text" placeholder="Marseille, France" name="City">
                 <button type="submit" class="btn_search">Rechercher</button>
+                <button type="submit" class="icon_search"><i class="fa-solid fa-magnifying-glass"
+                        aria-hidden="true"></i></button>
             </div>
         </form>
         <!--Filtres-->
@@ -58,7 +63,7 @@
         </div>
         <!--Info-->
         <div class="info">
-            <i class="fas fa-info"></i>
+            <i class="fas fa-info icon_info"></i>
             <p>Plus de 500 logements sont disponibles dans cette ville</p>
         </div>
         <!--Hebergements à Marseille-->

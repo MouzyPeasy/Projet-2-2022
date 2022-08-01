@@ -8,16 +8,17 @@
     <script src="https://kit.fontawesome.com/4a48ebd999.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 991px)" href="tablette.css">
+    <link rel="stylesheet" media="screen and (max-width: 767px)" href="smartphone.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <title>Booki</title>
 </head>
 
 <body>
-    <!--Header/nav-->
     <header>
         <nav>
             <div class="nav_logo">
-                <img src="images/logo/Booki@3x.png" alt="logo">
+                <img src="images/logo/Booki.png" alt="logo">
             </div>
             <ul>
                 <li><a href="#hebergements">Hébergements</a></li>
@@ -28,7 +29,6 @@
     <main>
         <h1>Trouver votre hébergement pour des vacances de rêve</h1>
         <p>En plein centre ville ou en pleine nature</p>
-        <!--Recherche/form-->
         <form method="post" action="/recherche.php">
             <div class="bar_search">
                 <i class="fa-solid fa-location-dot icon_location" aria-hidden="true"></i>
@@ -38,7 +38,6 @@
                         aria-hidden="true"></i></button>
             </div>
         </form>
-        <!--Filtres-->
         <div class="bar_filters">
             <h3>Filtres</h3>
             <ul>
@@ -60,12 +59,10 @@
                 </li>
             </ul>
         </div>
-        <!--Info-->
         <div class="info">
             <i class="fas fa-info icon_info"></i>
             <p>Plus de 500 logements sont disponibles dans cette ville</p>
         </div>
-        <!--Hebergements à Marseille-->
         <div class="hebergements_mid">
             <article class="hebergements_main" id="hebergements">
                 <h2>Hébergements à Marseille</h2>
@@ -89,7 +86,7 @@
                     </div>
                     <div class="card_1">
                         <a href="#">
-                            <img src="./images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
+                            <img src="./images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
                                 alt="hotel du port">
                             <div class="container">
                                 <h3>Hôtel du port</h3>
@@ -123,7 +120,7 @@
                     </div>
                     <div class="card_1">
                         <a href="#">
-                            <img src="./images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
+                            <img src="./images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
                                 alt="hotel de la mer">
                             <div class="container">
                                 <h3>Hôtel de la mer</h3>
@@ -140,7 +137,7 @@
                     </div>
                     <div class="card_1">
                         <a href="#">
-                            <img src="./images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
+                            <img src="./images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
                                 alt="auberge le panier">
                             <div class="container">
                                 <h3>Auberge le Panier</h3>
@@ -157,7 +154,7 @@
                     </div>
                     <div class="card_1">
                         <a href="#">
-                            <img src="./images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
+                            <img src="./images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
                                 alt="hotel chez amina">
                             <div class="container">
                                 <h3>Hôtel chez Amina</h3>
@@ -179,7 +176,6 @@
                     </a>
                 </div>
             </article>
-            <!--Populaires-->
             <aside class="populaires">
                 <div class="all_populaires">
                     <div class="title_pop">
@@ -240,7 +236,6 @@
                 </div>
             </aside>
         </div>
-        <!--Activités à Marseille-->
         <section class="activite" id="activites">
             <h2>Activités à Marseille</h2>
             <div class="all_activite">
@@ -281,7 +276,6 @@
             </div>
         </section>
     </main>
-    <!--Footer-->
     <footer>
         <div class="bot">
             <h3>A propos</h3>

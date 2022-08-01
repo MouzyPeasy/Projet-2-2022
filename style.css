@@ -240,7 +240,7 @@ h3 + ul {
   position: relative;
 }
 
-.card_1:hover {
+.card_1:hover,.card_2:hover{
   transform: scale(1.05);
 }
 
@@ -259,10 +259,6 @@ h3 + ul {
   box-shadow: 3px 3px 10px #d9d9d9;
   margin-bottom: 50px;
   position: relative;
-}
-
-.card_2:hover {
-  transform: scale(1.05);
 }
 
 .a_populaires {
